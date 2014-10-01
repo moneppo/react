@@ -1,0 +1,33 @@
+body {
+  text-align: center;
+}
+
+.playspace {
+  width: 600px;
+  height: 400px;
+  font-size: 36px;
+  margin: auto;
+  position: relative;
+  background-image: url(doom.jpg);
+  background-size: contain;
+}
+
+i {
+  position: absolute;
+}
+
+.key-i {
+	background-image: url(key-i.png);
+}
+
+.key-d {
+	background-image: url(key-d.png);
+}
+
+.key-q {	
+	background-image: url(key-q.png);
+}
+
+.hidden {
+	opacity: 0;
+}
