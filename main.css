@@ -1,5 +1,6 @@
 body {
   text-align: center;
+	background-color: grey;
 }
 
 .playspace {
@@ -8,12 +9,18 @@ body {
   font-size: 36px;
   margin: auto;
   position: relative;
-  background-image: url(doom.jpg);
+  background-image: url(doom.png);
   background-size: contain;
 }
 
 i {
   position: absolute;
+}
+
+.message {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10%;
 }
 
 .key-i {
